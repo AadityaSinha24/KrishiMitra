@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "It is a farmer-centric web-based application that provides the essential agricultural information throughan internet-enabled platform.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,7 @@
     "mongoose": "^9.2.4"
   },
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "nodemon": "^3.1.14",
     "typescript": "^6.0.3"
   }
